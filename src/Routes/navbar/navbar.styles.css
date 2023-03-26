@@ -46,6 +46,7 @@
 
 .navbar__nav-links:hover {
   color: rgb(0, 132, 255);
+  transform: scale(120%);
 }
 
 .navbar__social-media {
