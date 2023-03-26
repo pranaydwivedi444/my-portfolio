@@ -6,7 +6,7 @@ import "./navbar.styles.css";
 export default function Navbar() {
   const [click, setClick] = useState(false);
   function handleClick() {
-    setClick(!click);
+    setClick((preclick) => !preclick);
   }
   function closeMenu() {
     if (window.innerWidth > 570) return;
@@ -15,52 +15,68 @@ export default function Navbar() {
   }
   return (
     <>
-      <nav className="nav-bar">
-        <div className="logo-container">
-          <Link className="navbar-logo" to="/">
-            <img src={mainLogo} alt="logo" className="main-logo" />
+      <nav className="navbar__nav-bar">
+        <div className="navbar__logo-container">
+          <Link className="navbar__navbar-logo" to="/">
+            <img src={mainLogo} alt="logo" className="navbar__main-logo" />
           </Link>
         </div>
-        <div className="menu-icon " onClick={handleClick}>
+        <div className="navbar__menu-icon " onClick={handleClick}>
           <i
-            className={click ? "fa fa-times nav-icon" : "fas fa-bars  nav-icon"}
+            className={
+              click
+                ? "fa fa-times navbar__nav-icon"
+                : "fas fa-bars  navbar__nav-icon"
+            }
           />
         </div>
         <div
-          className={click ? "navlink-container active" : "navlink-container"}
+          className={
+            click
+              ? "navbar__navlink-container navbar__active"
+              : "navbar__navlink-container"
+          }
         >
-          <ul className={"nav-menu"}>
-            <li className="nav-item">
-              <Link className="nav-links" to="/" onClick={closeMenu}>
+          <ul className={"navbar__nav-menu"}>
+            <li className="navbar__nav-item">
+              <Link className="navbar__nav-links" to="/" onClick={closeMenu}>
                 Home
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-links" to="/Projects" onClick={closeMenu}>
+            <li className="navbar__nav-item">
+              <Link
+                className="navbar__nav-links"
+                to="/Projects"
+                onClick={closeMenu}
+              >
                 Projects
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-links" to="/Podcast" onClick={closeMenu}>
+            <li className="navbar__nav-item">
+              <Link
+                className="navbar__nav-links"
+                to="/Podcast"
+                onClick={closeMenu}
+              >
                 Podcast
               </Link>
             </li>
             <a
-              className="nav-links"
+              className="navbar__nav-links"
               href="https://www.linkedin.com/in/pranayd32/"
               target="_blank"
             >
               <i className="fa-brands fa-linkedin-in"></i>
             </a>
             <a
-              className="nav-links"
+              className="navbar__nav-links"
               href="https://github.com/pranaydwivedi444"
               target="_blank"
             >
               <i className="fa-brands fa-github"></i>
             </a>
             <a
-              className="nav-links"
+              className="navbar__nav-links"
               href="https://twitter.com/pranayD32"
               target="_blank"
             >
