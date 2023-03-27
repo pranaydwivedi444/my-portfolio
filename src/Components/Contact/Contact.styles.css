@@ -1,0 +1,5 @@
+.Contact__container {
+  min-height: 100vh;
+  scroll-snap-align: center;
+  /* background-color: rgb(42, 165, 138); */
+}

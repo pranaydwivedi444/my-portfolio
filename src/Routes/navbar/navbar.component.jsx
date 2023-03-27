@@ -63,11 +63,12 @@ export default function Navbar() {
             </li>
             <a
               className="navbar__nav-links"
-              href="https://www.linkedin.com/in/pranayd32/"
+              href="https://twitter.com/pranayD32"
               target="_blank"
             >
-              <i className="fa-brands fa-linkedin-in"></i>
+              <i className="fa-brands fa-twitter"></i>
             </a>
+
             <a
               className="navbar__nav-links"
               href="https://github.com/pranaydwivedi444"
@@ -77,10 +78,10 @@ export default function Navbar() {
             </a>
             <a
               className="navbar__nav-links"
-              href="https://twitter.com/pranayD32"
+              href="https://www.linkedin.com/in/pranayd32/"
               target="_blank"
             >
-              <i className="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-linkedin-in"></i>
             </a>
           </ul>
         </div>

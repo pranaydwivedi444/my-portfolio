@@ -1,0 +1,27 @@
+.home__container {
+  min-height: 100vh;
+  /* background: url("../../Assets/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg"); */
+  background: linear-gradient(
+    to right bottom,
+    #14181c,
+    #121317,
+    #0f0e11,
+    #090708,
+    #000000
+  );
+
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  color: white;
+  background-size: contain;
+}
+
+/* linear-gradient(
+      to right bottom,
+      #14181c,
+      #121317,
+      #0f0e11,
+      #090708,
+      #000000
+    ), */
