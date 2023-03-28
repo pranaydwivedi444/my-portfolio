@@ -4,15 +4,30 @@ import myself from "./myself.png";
 import coding from "./coding.png";
 
 function Hero() {
+  function handleResumeClick() {
+    // window.location.href = "https://drive.google.com/your-link-here";
+    window.open("https://drive.google.com/your-google-drive-link", "_blank");
+  }
   return (
     <div className="hero__container">
       <div className="hero__left">
-        <img src={myself} alt="my details" />
+        <div className="img__container">
+          <img src={myself} alt="my details" />
+        </div>
+        <div className="hero__resume">
+          <button
+            onClick={handleResumeClick}
+            className="glow-on-hover"
+            type="button"
+          >
+            Resume
+          </button>
+        </div>
       </div>
       <div className="hero__right">
         <div className="hero__right__imageContainer">
           {/* 3d model */}
-          <img src={coding} alt="coding space" srcset="" />
+          <img src={coding} alt="coding space" />
         </div>
       </div>
     </div>
