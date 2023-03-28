@@ -7,6 +7,7 @@ import { useState } from "react";
 import forkify from "./../../../Assets/projectSnaps/forkify.png";
 import ecommerce from "./../../../Assets/projectSnaps/ecommerce.png";
 import chess from "./../../../Assets/projectSnaps/chess.png";
+import airbnb from "./../../../Assets/projectSnaps/airbnb.png";
 
 import SwiperCore, { Navigation, Pagination } from "swiper";
 
@@ -109,9 +110,10 @@ function ProjectSection() {
             </div>
             <div className="product-img__item" id="img4">
               <img
-                src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1536405215/starwars/item-4.webp"
-                alt="star wars"
+                src={airbnb}
+                alt="airbnb"
                 className="product-img__img"
+                width={"400em"}
               />
             </div>
           </div>
@@ -142,17 +144,30 @@ function ProjectSection() {
                     className="product-slider__cover"
                   />
                   <div className="product-slider__content">
-                    <h1 className="product-slider__title">
-                      STORMTROPER <br />
-                      HELMET
-                    </h1>
+                    <h1 className="product-slider__title">Airbnb Clone</h1>
                     <span className="product-slider__price">
-                      $1.299,<sup>99</sup>
+                      Next JS,Tailwind CSS, Mapbox
                     </span>
                     <div className="product-ctr">
                       <div className="product-inf">
                         <span className="product-inf__title">
-                          DURABILITY RATE
+                          <ul>
+                            <li>
+                              Developed an Airbnb clone using ReactJS, Next.js,
+                              Tailwind CSS, and Mapbox,
+                            </li>
+                            <li>
+                              Incorporated a calendar and date picker feature
+                              that allows users to easily select their desired
+                              dates and book a listing, streamlining the booking
+                              process.
+                            </li>
+                            <li>
+                              Integrated Mapbox to display all listings on a
+                              map, providing an intuitive way for users to find
+                              their desired location
+                            </li>
+                          </ul>
                         </span>
                       </div>
                     </div>
