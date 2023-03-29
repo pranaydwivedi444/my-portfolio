@@ -1,0 +1,8 @@
+.UI__title {
+  text-align: center;
+  margin: 1rem;
+  /* font-family: "Open Sans", sans-serif; */
+  font-size: 2.5rem;
+  letter-spacing: 0.25ch;
+  text-shadow: 1px 1px 1px rgb(80, 1, 1);
+}

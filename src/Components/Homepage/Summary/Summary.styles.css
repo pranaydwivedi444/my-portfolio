@@ -3,3 +3,27 @@
   scroll-snap-align: center;
   /* background-color: brown; */
 }
+.summary__introduction {
+  margin: 0 2rem;
+  text-align: center;
+}
+
+.summary__introduction h1 {
+  text-align: center;
+  margin: 0.25rem;
+  /* font-family: "Open Sans", sans-serif; */
+  font-size: 3rem;
+  letter-spacing: 0.25ch;
+  text-shadow: 1px 1px 1px rgb(80, 1, 1);
+}
+
+.summary__introduction p {
+  text-align: center;
+
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 1rem;
+
+  /* letter-spacing: 0.25ch; */
+  text-shadow: 1px 1px 1px rgb(80, 1, 1);
+}

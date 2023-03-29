@@ -1,4 +1,3 @@
-import React from "react";
 import "./ProjectSection.styles.css";
 
 import { useEffect } from "react";
@@ -12,7 +11,7 @@ import airbnb from "./../../../Assets/projectSnaps/airbnb.png";
 import SwiperCore, { Navigation, Pagination } from "swiper";
 
 import "swiper/css";
-
+import Title from "../../UI/Title/Title.component";
 function ProjectSection() {
   SwiperCore.use([Navigation, Pagination]);
 
@@ -81,6 +80,7 @@ function ProjectSection() {
   }, [swiper]);
   return (
     <div className="project__container">
+      <Title>Projects</Title>
       <div className="wrapper">
         <div className="content">
           <div className="product-img">
@@ -365,7 +365,7 @@ function ProjectSection() {
               alt="github icon"
               className="social__img"
             />
-            <span className="social__txt">Github</span>
+            <span className="social__txt">other projects </span>
           </a>
         </div>
       </div>
