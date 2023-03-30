@@ -4,6 +4,7 @@ import Title from "../UI/Title/Title.component.jsx";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { useState } from "react";
+import Maps from "../UI/Maps/maps.component";
 
 function Contact() {
   const form = useRef();
@@ -74,7 +75,9 @@ function Contact() {
             </form>
           </div>
         </div>
-        <div className="contact__right"></div>
+        <div className="contact__right">
+          <Maps className="google__maps" />
+        </div>
       </div>
     </>
   );

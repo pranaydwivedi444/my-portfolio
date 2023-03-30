@@ -63,12 +63,12 @@ const VerticalLine = () => {
         mode="VERTICAL_ALTERNATING"
         focusActiveItemOnLoad
         enableDarkToggle
-        // fontSizes={{
-        //   cardSubtitle: "0.85rem",
-        //   cardText: "0.8rem",
-        //   cardTitle: "1rem",
-        //   title: "1rem",
-        // }}
+        fontSizes={{
+          cardSubtitle: "1.1rem",
+          cardText: "1rem",
+          cardTitle: "1.25rem",
+          title: "1.5rem",
+        }}
         theme={{
           //   primary: "red",
           secondary: "#F0F8FF",
