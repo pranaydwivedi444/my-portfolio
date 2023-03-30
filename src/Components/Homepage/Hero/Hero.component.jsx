@@ -6,7 +6,10 @@ import coding from "./coding.png";
 function Hero() {
   function handleResumeClick() {
     // window.location.href = "https://drive.google.com/your-link-here";
-    window.open("https://drive.google.com/your-google-drive-link", "_blank");
+    window.open(
+      "https://docs.google.com/document/d/1AMNCHDTh-OmO_2XC44ofyWGXOdslSVTKr4gwP3E-kHA",
+      "_blank"
+    );
   }
   return (
     <div className="hero__container">
