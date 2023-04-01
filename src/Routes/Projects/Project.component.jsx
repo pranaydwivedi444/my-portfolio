@@ -6,6 +6,12 @@ import "swiper/css";
 import ProjectSection from "../../Components/Homepage/ProjectsSection/ProjectSection.component";
 
 export default function Project() {
+  function openGitHub(event) {
+    const url = event.target.getAttribute("data-url");
+    if (url) {
+      window.open(url, "_blank");
+    }
+  }
   return (
     <>
       <ProjectSection />
@@ -33,9 +39,10 @@ export default function Project() {
             <img src="https://img.icons8.com/material-rounded/48/null/github.png" />
           </a>
         </div>
-        <div className="gallery">
+        <div className="gallery" onClick={openGitHub}>
           <div
             className="pictures container-1 row-2"
+            data-url="https://github.com/pranaydwivedi444/Expense-Tracker"
             style={{
               backgroundImage:
                 "url(https://user-images.githubusercontent.com/48515987/228820751-c28d5a38-ca2a-47d4-b28c-42fbd1abf076.png)",
@@ -45,6 +52,7 @@ export default function Project() {
           </div>
           <div
             className="pictures container-2 col-2"
+            data-url="https://github.com/pranaydwivedi444/Notes-Advance-reactjs"
             style={{
               backgroundImage:
                 "url(https://user-images.githubusercontent.com/48515987/227156990-5e3e2288-344b-4cfe-9a96-53eeb77466de.png)",
@@ -53,6 +61,7 @@ export default function Project() {
             <p className="images-title">Notes App</p>
           </div>
           <div
+            data-url="https://github.com/pranaydwivedi444/DOGE-BANK-APP-JAVASCRIPT-CSS-HTML"
             className="pictures container-3"
             style={{
               backgroundImage:
@@ -62,6 +71,7 @@ export default function Project() {
             <p className="images-title">BANK APP</p>
           </div>
           <div
+            data-url="https://github.com/pranaydwivedi444/my-portfolio"
             className="pictures row-2 container-4"
             style={{
               backgroundImage:
@@ -71,6 +81,7 @@ export default function Project() {
             <p className="images-title">My Portfolio</p>
           </div>
           <div
+            data-url="https://github.com/pranaydwivedi444/TIC_TAC_TOE"
             className="pictures row-2 container-5"
             style={{
               backgroundImage:
@@ -80,6 +91,7 @@ export default function Project() {
             <p className="images-title">TIC TAC TOE</p>
           </div>
           <div
+            data-url="https://github.com/pranaydwivedi444/dictionary-app-12Languages"
             className="pictures container-6"
             style={{
               backgroundImage:
@@ -89,6 +101,7 @@ export default function Project() {
             <p className="images-title">12 Language Dictionary App</p>
           </div>
           <div
+            data-url="https://github.com/pranaydwivedi444/GeoWorkout-app"
             className="pictures col-2 container-7"
             style={{
               backgroundImage:
