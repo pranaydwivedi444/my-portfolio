@@ -17,11 +17,52 @@
   background-size: contain;
 }
 
-/* linear-gradient(
-      to right bottom,
-      #14181c,
-      #121317,
-      #0f0e11,
-      #090708,
-      #000000
-    ), */
+.home__container {
+  position: relative;
+}
+
+.home__stars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.home__parallax {
+  perspective: 1000px;
+  perspective-origin: center;
+}
+
+.home__stars > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  background: white;
+}
+
+.home__star1 {
+  transform: translate3d(50vw, 50vh, 0) scale(1);
+}
+
+.home__star2 {
+  transform: translate3d(75vw, 75vh, 0) scale(1.5);
+}
+
+.home__star3 {
+  transform: translate3d(25vw, 25vh, 0) scale(2);
+}
+
+.home__star4 {
+  transform: translate3d(90vw, 10vh, 0) scale(1);
+}
+
+.home__star5 {
+  transform: translate3d(10vw, 90vh, 0) scale(1.5);
+}
+
+
