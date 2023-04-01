@@ -2,6 +2,8 @@
   min-height: 100vh;
   position: relative;
   overflow: hidden;
+  background-color: #FFFFFF; /* or any color you want */
+
 }
 
 .home__parallax {
