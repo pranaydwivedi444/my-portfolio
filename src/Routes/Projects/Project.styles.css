@@ -6,11 +6,14 @@
   gap: 1.5rem;
   background-color: #d9afd9;
   background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-y: auto;
   /* flex-wrap: wrap; */
 }
-.container > * {
-  /* flex-grow: 1; */
-}
+/* .container > * {
+  
+} */
 .title-box {
   flex-basis: 30%;
   text-align: center;
