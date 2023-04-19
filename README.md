@@ -4,69 +4,52 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![image](https://user-images.githubusercontent.com/48515987/228822879-fced1313-093e-42c0-8f20-d995fb15a48a.png)
 
 
-## Available Scripts
+## My Portfolio
+This is a personal portfolio website created using ReactJS and EmailJS. The website is designed as a single-page application using React Router, and features a timeline and parallax effect using React Spring.
+## Table of Contents
+- Installation
+- Usage
+- Features
+- Contributing
+- License
+- Installation
+- To install the project on your local machine, follow these steps:
 
-In the project directory, you can run:
+## Clone the repository:
 
-### `npm start`
+bash
+Copy code
+git clone https://github.com/pranaydwivedi444/my-portfolio.git
+Install the dependencies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Copy code
+npm install
+Create a .env file and add your EmailJS credentials:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+makefile
+Copy code
+REACT_APP_EMAILJS_USERID=<your-user-id>
+REACT_APP_EMAILJS_TEMPLATEID=<your-template-id>
+REACT_APP_EMAILJS_SERVICEID=<your-service-id>
+Run the project:
 
-### `npm test`
+sql
+Copy code
+npm start
+Usage
+The website is designed to showcase your personal portfolio, so you can add your own projects, skills, and experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To edit the website content, you can modify the data in the src/data folder.
 
-### `npm run build`
+To add or modify the timeline events, you can edit the events.js file in the src/components/timeline folder.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
+- Single-page application using React Router
+- Timeline using React Spring
+- Parallax effect using React Spring
+- EmailJS integration for contact form
+- Contributing
+- Contributions to this project are welcome. If you find a bug or have a suggestion for improvement, please create an issue or submit a pull request.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the MIT License.
