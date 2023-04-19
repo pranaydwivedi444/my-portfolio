@@ -96,3 +96,9 @@
   margin-top: 1rem;
   padding: 1rem;
 }
+
+.project-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
