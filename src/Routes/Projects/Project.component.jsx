@@ -15,6 +15,7 @@ import recipe from "./../../Assets/recipe.png";
 import chatAI from "./../../Assets/chatAIBOT.jpg";
 import dictionary from "./../../Assets/dictionary.png";
 
+import FilmFeast from "./../../Assets/FilmFeast.png";
 export default function Project() {
   const projects = [
     {
@@ -23,6 +24,17 @@ export default function Project() {
       description:
         "Samvad is a real-time group chat  with 3 AI bots  integrated,The AI bots enhance the user experience to discuss , get best results",
       image: chatAI,
+      codeLink:
+        "https://github.com/pranaydwivedi444/Chess-Game/tree/main/chess",
+      liveLink:
+        "https://github.com/pranaydwivedi444/Chess-Game/tree/main/chess",
+    },
+    {
+      id: 8,
+      title: "Film Feast Movie Web App ",
+      description:
+        "movie search app is designed to provide a seamless movie search experience for users. Built with React, the app allows users to search for movies by category and save their favorite films to a personalized list. ",
+      image: FilmFeast,
       codeLink:
         "https://github.com/pranaydwivedi444/Chess-Game/tree/main/chess",
       liveLink:
@@ -92,7 +104,7 @@ export default function Project() {
     },
   ];
   return (
-    <>
+    <div className="project__page">
       <div className="project-cards">
         {projects.map((project) => (
           <ProjectCard
@@ -106,6 +118,6 @@ export default function Project() {
         ))}
       </div>
       <ProjectContainerGrid />
-    </>
+    </div>
   );
 }

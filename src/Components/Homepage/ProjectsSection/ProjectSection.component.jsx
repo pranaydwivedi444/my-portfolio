@@ -17,6 +17,13 @@ function ProjectSection() {
 
   const [swiper, setSwiper] = useState(null);
 
+  function openLink(event) {
+    const url = event.target.getAttribute("data-url");
+    if (url) {
+      window.open(url, "_blank");
+    }
+  }
+
   useEffect(() => {
     if (!swiper) {
       setSwiper(
@@ -172,10 +179,18 @@ function ProjectSection() {
                       </div>
                     </div>
                     <div className="product-slider__bottom">
-                      <button className="product-slider__cart">
+                      <button
+                        className="product-slider__cart"
+                        data-url="https://github.com/pranaydwivedi444/"
+                        onClick={openLink}
+                      >
                         Live Link
                       </button>
-                      <button className="product-slider__fav js-fav">
+                      <button
+                        className="product-slider__fav js-fav"
+                        data-url="https://github.com/pranaydwivedi444/"
+                        onClick={openLink}
+                      >
                         <span className="heart" /> code here
                       </button>
                     </div>
@@ -230,10 +245,18 @@ function ProjectSection() {
                       </div>
                     </div>
                     <div className="product-slider__bottom">
-                      <button className="product-slider__cart">
+                      <button
+                        className="product-slider__cart"
+                        data-url="https://github.com/pranaydwivedi444/"
+                        onClick={openLink}
+                      >
                         LIVE LINK
                       </button>
-                      <button className="product-slider__fav js-fav">
+                      <button
+                        className="product-slider__fav js-fav"
+                        data-url="https://github.com/pranaydwivedi444/"
+                        onClick={openLink}
+                      >
                         <span className="heart" /> CODE HERE
                       </button>
                     </div>
@@ -281,10 +304,18 @@ function ProjectSection() {
                       </div>
                     </div>
                     <div className="product-slider__bottom">
-                      <button className="product-slider__cart">
+                      <button
+                        className="product-slider__cart"
+                        data-url="https://github.com/pranaydwivedi444/"
+                        onClick={openLink}
+                      >
                         Live Link
                       </button>
-                      <button className="product-slider__fav js-fav">
+                      <button
+                        className="product-slider__fav js-fav"
+                        data-url="https://github.com/pranaydwivedi444/"
+                        onClick={openLink}
+                      >
                         <span className="heart" /> CODE HERE
                       </button>
                     </div>
@@ -328,10 +359,18 @@ function ProjectSection() {
                       </div>
                     </div>
                     <div className="product-slider__bottom">
-                      <button className="product-slider__cart">
+                      <button
+                        className="product-slider__cart"
+                        data-url="https://github.com/pranaydwivedi444/"
+                        onClick={openLink}
+                      >
                         Live Link
                       </button>
-                      <button className="product-slider__fav js-fav">
+                      <button
+                        className="product-slider__fav js-fav"
+                        data-url="https://github.com/pranaydwivedi444/"
+                        onClick={openLink}
+                      >
                         <span className="heart" />
                         CODE HERE
                       </button>
