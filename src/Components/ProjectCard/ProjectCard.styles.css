@@ -48,7 +48,8 @@
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: #ccc #f8f8f8;
-  height: calc(100% - 70px);
+  height: calc(100% - 4.3rem);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .project-description::-webkit-scrollbar {
   width: 6px;
