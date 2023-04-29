@@ -14,54 +14,11 @@ import airbnb from "./../../Assets/airbnb.png";
 import recipe from "./../../Assets/recipe.png";
 import chatAI from "./../../Assets/chatAIBOT.jpg";
 import dictionary from "./../../Assets/dictionary.png";
+import foodOrder from "./../../Assets/foodapp.png";
 
 import FilmFeast from "./../../Assets/FilmFeast.png";
 export default function Project() {
   const projects = [
-    {
-      id: 5,
-      title: "Samvaad Chat ",
-      description:
-        "Samvad is a real-time group chat  with 3 AI bots  integrated,The AI bots enhance the user experience to discuss , get best results",
-      image: chatAI,
-      codeLink:
-        "https://github.com/pranaydwivedi444/Chess-Game/tree/main/chess",
-      liveLink:
-        "https://github.com/pranaydwivedi444/Chess-Game/tree/main/chess",
-    },
-    {
-      id: 8,
-      title: "Film Feast Movie Web App ",
-      description:
-        "movie search app is designed to provide a seamless movie search experience for users. Built with React, the app allows users to search for movies by category and save their favorite films to a personalized list. ",
-      image: FilmFeast,
-      codeLink:
-        "https://github.com/pranaydwivedi444/Chess-Game/tree/main/chess",
-      liveLink:
-        "https://github.com/pranaydwivedi444/Chess-Game/tree/main/chess",
-    },
-    {
-      id: 6,
-      title: "DICTIONARY APP ",
-      description:
-        "The Dictionary Progressive web app  supports 12 different languages, search for the meaning of words, with the ability to hear the pronunciation",
-      image: dictionary,
-      codeLink:
-        "https://github.com/pranaydwivedi444/dictionary-app-12Languages",
-      liveLink:
-        "https://pranaydwivedi444.github.io/dictionary-app-12Languages/",
-    },
-    {
-      id: 7,
-      title: "CRYPTO DASHBOARD",
-      description:
-        "CRYPTO dashboard with settings for selecting favorite coins, fuzzy search, and toggling coins on/off. The dashboard generates prices and historical data, includes a line chart with selectable timeframes, and can be configured with dark or light themes.",
-      image: crypto,
-      codeLink:
-        "https://github.com/pranaydwivedi444/dictionary-app-12Languages",
-      liveLink:
-        "https://pranaydwivedi444.github.io/dictionary-app-12Languages/",
-    },
     {
       id: 1,
       title: "CRWN ECOMMERCE",
@@ -81,6 +38,15 @@ export default function Project() {
       liveLink: "https://forkify-project-recipe.netlify.app/",
     },
     {
+      id: 8,
+      title: "Film Feast Movie Web App ",
+      description:
+        "movie search app is designed to provide a seamless movie search experience for users. Built with React, the app allows users to search for movies by category and save their favorite films to a personalized list. ",
+      image: FilmFeast,
+      codeLink: "https://github.com/pranaydwivedi444/filmyfeast",
+      liveLink: "https://filmyfeast.vercel.app/",
+    },
+    {
       id: 3,
       title: "Chess",
       description:
@@ -91,17 +57,56 @@ export default function Project() {
       liveLink:
         "https://github.com/pranaydwivedi444/Chess-Game/tree/main/chess",
     },
+
+    {
+      id: 11,
+      title: "Food Order React Project",
+      description:
+        "The React- redux based food order app offers a seamless user experience with easy menu browsing, cart addition and authetication  ",
+      image: foodOrder,
+      codeLink: "https://github.com/pranaydwivedi444/foodorderapp",
+      liveLink: "https://github.com/pranaydwivedi444/foodorderapp",
+    },
+    {
+      id: 6,
+      title: "DICTIONARY APP ",
+      description:
+        "The Dictionary Progressive web app  supports 12 different languages, search for the meaning of words, with the ability to hear the pronunciation",
+      image: dictionary,
+      codeLink:
+        "https://github.com/pranaydwivedi444/dictionary-app-12Languages",
+      liveLink:
+        "https://pranaydwivedi444.github.io/dictionary-app-12Languages/",
+    },
     {
       id: 4,
       title: "AirBnB Clone",
       description:
         "This Airbnb clone project built with Next.js includes a date picker, Tailwind for styling, and Mapbox for map integration.",
       image: airbnb,
-      codeLink:
-        "https://github.com/pranaydwivedi444/Chess-Game/tree/main/chess",
-      liveLink:
-        "https://github.com/pranaydwivedi444/Chess-Game/tree/main/chess",
+      codeLink: "https://github.com/pranaydwivedi444/",
+      liveLink: "https://github.com/pranaydwivedi444/",
     },
+    {
+      id: 5,
+      title: "Samvaad Chat ",
+      description:
+        "Samvad is a real-time group chat  with 3 AI bots  integrated,The AI bots enhance the user experience to discuss , get best results",
+      image: chatAI,
+      codeLink: "https://github.com/pranaydwivedi444/samvaad-chat",
+      liveLink: "https://github.com/pranaydwivedi444/samvaad-chat",
+    },
+    // {
+    //   id: 7,
+    //   title: "CRYPTO DASHBOARD",
+    //   description:
+    //     "CRYPTO dashboard with settings for selecting favorite coins, fuzzy search, and toggling coins on/off. The dashboard generates prices and historical data, includes a line chart with selectable timeframes, and can be configured with dark or light themes.",
+    //   image: crypto,
+    //   codeLink:
+    //     "https://github.com/pranaydwivedi444/dictionary-app-12Languages",
+    //   liveLink:
+    //     "https://pranaydwivedi444.github.io/dictionary-app-12Languages/",
+    // },
   ];
   return (
     <div className="project__page">

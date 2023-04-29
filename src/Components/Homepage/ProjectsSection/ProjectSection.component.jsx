@@ -7,6 +7,7 @@ import forkify from "./../../../Assets/projectSnaps/forkify.png";
 import ecommerce from "./../../../Assets/projectSnaps/ecommerce.png";
 import chess from "./../../../Assets/projectSnaps/chess.png";
 import airbnb from "./../../../Assets/projectSnaps/airbnb.png";
+import chatAI from "./../../../Assets/chatAIBOT.jpg";
 
 import SwiperCore, { Navigation, Pagination } from "swiper";
 
@@ -109,8 +110,8 @@ function ProjectSection() {
             </div>
             <div className="product-img__item" id="img3">
               <img
-                src={chess}
-                alt="chess"
+                src={chatAI}
+                alt="chat AI image"
                 className="product-img__img"
                 width={"400em"}
               />
@@ -247,14 +248,14 @@ function ProjectSection() {
                     <div className="product-slider__bottom">
                       <button
                         className="product-slider__cart"
-                        data-url="https://github.com/pranaydwivedi444/"
+                        data-url="https://forkify-project-recipe.netlify.app/"
                         onClick={openLink}
                       >
                         LIVE LINK
                       </button>
                       <button
                         className="product-slider__fav js-fav"
-                        data-url="https://github.com/pranaydwivedi444/"
+                        data-url="https://github.com/pranaydwivedi444/Forkify"
                         onClick={openLink}
                       >
                         <span className="heart" /> CODE HERE
@@ -306,14 +307,14 @@ function ProjectSection() {
                     <div className="product-slider__bottom">
                       <button
                         className="product-slider__cart"
-                        data-url="https://github.com/pranaydwivedi444/"
+                        data-url="https://crwn-clothing-ecommerce-store.netlify.app/"
                         onClick={openLink}
                       >
                         Live Link
                       </button>
                       <button
                         className="product-slider__fav js-fav"
-                        data-url="https://github.com/pranaydwivedi444/"
+                        data-url="https://github.com/pranaydwivedi444/crwn-shopping-web--app"
                         onClick={openLink}
                       >
                         <span className="heart" /> CODE HERE
@@ -333,26 +334,26 @@ function ProjectSection() {
                     className="product-slider__cover"
                   />
                   <div className="product-slider__content">
-                    <h1 className="product-slider__title">Chess Game</h1>
+                    <h1 className="product-slider__title">SAMVAAD CHAT</h1>
                     <span className="product-slider__price">
-                      Next Js, TypeScript
+                      React Js, Firebase , Chat Engine
                     </span>
                     <div className="product-ctr">
                       <div className="product-inf">
                         <span className="product-inf__title">
                           <ul>
                             <li>
-                              Developed a chess game application using React,
-                              Nextjs, TypeScript, and open-source libraries.
+                              Three AI bots that can participate in group
+                              conversations, answer questions, and provide
+                              project assistance.
                             </li>
                             <li>
-                              Developed a scalable and maintainable chess game
-                              application using React, Next.js, and TypeScript.
+                              Developed a scalable and maintainable Real time
+                              Chat application using React,Chat Engine.
                             </li>
                             <li>
-                              developed for two players and utilized Min-Max
-                              algorithm-based AI integrated with an API to
-                              provide a challenging single-player experience.
+                              AI bot can summarize the entire group conversation
+                              and provide a final conclusion.
                             </li>
                           </ul>
                         </span>
@@ -361,14 +362,14 @@ function ProjectSection() {
                     <div className="product-slider__bottom">
                       <button
                         className="product-slider__cart"
-                        data-url="https://github.com/pranaydwivedi444/"
+                        data-url="https://github.com/pranaydwivedi444/samvaad-chat"
                         onClick={openLink}
                       >
                         Live Link
                       </button>
                       <button
                         className="product-slider__fav js-fav"
-                        data-url="https://github.com/pranaydwivedi444/"
+                        data-url="https://github.com/pranaydwivedi444/samvaad-chat"
                         onClick={openLink}
                       >
                         <span className="heart" />
