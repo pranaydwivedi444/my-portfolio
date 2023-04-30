@@ -47,6 +47,28 @@ export default function Project() {
       liveLink: "https://filmyfeast.vercel.app/",
     },
     {
+      id: 6,
+      title: "Geo Workout APP ",
+      description:
+        "Mapty is a web application that allows users to track their workouts on a map using leflet ,the user can interact with to create, edit, and delete workouts",
+      image:
+        "https://user-images.githubusercontent.com/48515987/221229823-18aa21dd-2968-4122-820f-ff83661fc08f.png",
+      codeLink: "https://github.com/pranaydwivedi444/GeoWorkout-app",
+      liveLink: "https://pranaydwivedi444.github.io/GeoWorkout-app/",
+    },
+    {
+      id: 5,
+      title: "Bankist APP ",
+      description:
+        "banking application that allows users to view their account balance, transfer money between accounts, request loans, and close accounts.",
+      image:
+        "https://user-images.githubusercontent.com/48515987/221422028-454e8448-d5f6-428b-82f0-ef5872f22ac8.png",
+      codeLink:
+        "https://github.com/pranaydwivedi444/DOGE-BANK-APP-JAVASCRIPT-CSS-HTML",
+      liveLink:
+        "https://pranaydwivedi444.github.io/DOGE-BANK-APP-JAVASCRIPT-CSS-HTML/",
+    },
+    {
       id: 3,
       title: "Chess",
       description:
@@ -67,17 +89,7 @@ export default function Project() {
       codeLink: "https://github.com/pranaydwivedi444/foodorderapp",
       liveLink: "https://github.com/pranaydwivedi444/foodorderapp",
     },
-    {
-      id: 6,
-      title: "DICTIONARY APP ",
-      description:
-        "The Dictionary Progressive web app  supports 12 different languages, search for the meaning of words, with the ability to hear the pronunciation",
-      image: dictionary,
-      codeLink:
-        "https://github.com/pranaydwivedi444/dictionary-app-12Languages",
-      liveLink:
-        "https://pranaydwivedi444.github.io/dictionary-app-12Languages/",
-    },
+
     {
       id: 4,
       title: "AirBnB Clone",
@@ -87,15 +99,26 @@ export default function Project() {
       codeLink: "https://github.com/pranaydwivedi444/",
       liveLink: "https://github.com/pranaydwivedi444/",
     },
-    {
-      id: 5,
-      title: "Samvaad Chat ",
-      description:
-        "Samvad is a real-time group chat  with 3 AI bots  integrated,The AI bots enhance the user experience to discuss , get best results",
-      image: chatAI,
-      codeLink: "https://github.com/pranaydwivedi444/samvaad-chat",
-      liveLink: "https://github.com/pranaydwivedi444/samvaad-chat",
-    },
+    // {
+    //   id: 5,
+    //   title: "Samvaad Chat ",
+    //   description:
+    //     "Samvad is a real-time group chat  with 3 AI bots  integrated,The AI bots enhance the user experience to discuss , get best results",
+    //   image: chatAI,
+    //   codeLink: "https://github.com/pranaydwivedi444/samvaad-chat",
+    //   liveLink: "https://github.com/pranaydwivedi444/samvaad-chat",
+    // },
+    // {
+    //   id: 6,
+    //   title: "DICTIONARY APP ",
+    //   description:
+    //     "The Dictionary Progressive web app  supports 12 different languages, search for the meaning of words, with the ability to hear the pronunciation",
+    //   image: dictionary,
+    //   codeLink:
+    //     "https://github.com/pranaydwivedi444/dictionary-app-12Languages",
+    //   liveLink:
+    //     "https://pranaydwivedi444.github.io/dictionary-app-12Languages/",
+    // },
     // {
     //   id: 7,
     //   title: "CRYPTO DASHBOARD",
