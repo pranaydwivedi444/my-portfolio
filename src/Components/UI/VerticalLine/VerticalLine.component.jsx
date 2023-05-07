@@ -6,15 +6,15 @@ const VerticalLine = () => {
       cardTitle: "FAUJI TALKS",
       url: "https://www.youtube.com/@LtCdrBijayNair",
 
-      cardSubtitle: "Producer , Video Editor",
+      cardSubtitle: " Co-founder ,Producer",
       media: {
-        name: "dunkirk beach",
+        name: "thumbnail",
         source: {
           url: "https://i.ytimg.com/vi/KoTZ-io-Grs/maxresdefault.jpg",
         },
         type: "IMAGE",
       },
-      cardDetailedText: `as producer of  the popular 
+      cardDetailedText: `as  cofounder and producer of  the popular 
       Fauji Talks podcast  with naval war veteran Lt Cdr Bijay Nair, 
       I contributed  in launching and building the podcast brand from scratch, resulting in over 50K subscribers and 
       high viewer engagement. I managed all aspects of production,

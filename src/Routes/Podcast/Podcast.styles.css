@@ -1,0 +1,109 @@
+.podcast__page {
+  margin: 0;
+  background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7);
+  min-height: 100vh;
+}
+.podcast__page a {
+  text-decoration: none;
+}
+.podcast__title {
+  margin: 0 0;
+
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  color: whitesmoke;
+  text-shadow: 0px 0px 5px rgb(0, 0, 0), 0px 0px 10px rgb(3, 3, 3),
+    0px 0px 15px rgb(8, 8, 8), 0px 0px 20px rgb(8, 8, 8);
+  font-size: 3rem;
+  letter-spacing: 0.15rem;
+}
+
+.podcast__logo {
+  display: block;
+  margin: 0 auto;
+  width: 40vw;
+  height: auto;
+}
+.podcast__iconContainer {
+  text-align: center;
+  margin: 1rem;
+}
+
+.podcast__iconContainer > a {
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 2rem;
+  color: #000;
+}
+.podcast__iconContainer > a:hover {
+  background-color: #acacac;
+}
+
+/* Video card styles */
+
+.podcast__description {
+  margin: 2rem auto;
+  max-width: 60rem;
+  padding: 0 2rem;
+  text-align: justify;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: whitesmoke;
+  text-shadow: 1px 1px 1px black;
+}
+
+.podcast__video__card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.podcast__card {
+  width: 20rem;
+  margin: 2rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  background-color: #bec8d2;
+  transition: transform 0.3s ease-in-out;
+}
+
+.podcast__card:hover {
+  transform: translateY(-5px);
+}
+
+.podcast__card img {
+  width: 100%;
+  height: 15rem;
+  object-fit: contain;
+}
+
+.podcast__card h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 1rem;
+}
+
+.podcast__card button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  background-color: #e70f0f;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.podcast__card button:hover {
+  background-color: #911e1e;
+}

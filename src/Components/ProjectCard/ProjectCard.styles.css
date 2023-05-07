@@ -64,7 +64,7 @@
 }
 .project-links {
   position: absolute;
-  bottom: 20px;
+  bottom: 0.3rem;
   left: 50%;
   transform: translateX(-50%);
   display: flex;

@@ -27,3 +27,13 @@
   /* letter-spacing: 0.25ch; */
   text-shadow: 1px 1px 1px rgb(80, 1, 1);
 }
+
+.summary__introduction a {
+  color: white;
+  /* font-weight: bold; */
+
+  font-size: 1.5rem;
+  text-decoration: underline;
+  padding: 0.2rem;
+  margin: 1rem;
+}
