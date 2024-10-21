@@ -30,7 +30,7 @@ function Hero() {
       <div className="hero__right">
         <div className="hero__right__imageContainer">
           {/* 3d model */}
-{/*           <img src={coding} alt="coding space" /> */}
+          <img src={`https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2`} alt="coding space" />
         </div>
       </div>
     </div>
