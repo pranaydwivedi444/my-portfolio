@@ -132,8 +132,8 @@
 } */
 .hero__right__imageContainer img {
   width: 100%;
-  animation: animate 2s infinite ease alternate;
-  border-radius: 50%;
+/*   animation: animate 2s infinite ease alternate; */
+/*   border-radius: 50%; */
 }
 @keyframes animate {
   100% {
