@@ -30,7 +30,7 @@ function Hero() {
       <div className="hero__right">
         <div className="hero__right__imageContainer">
           {/* 3d model */}
-          <img src={coding} alt="coding space" />
+{/*           <img src={coding} alt="coding space" /> */}
         </div>
       </div>
     </div>
